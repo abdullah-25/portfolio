@@ -1,38 +1,158 @@
-.App {
-  text-align: center;
+body {
+  background-color: whitesmoke;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html,
+body {
+  scroll-behavior: smooth;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.centered-intro {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
-.App-link {
-  color: #61dafb;
+.fixed-paragraph {
+  max-width: 600px; /* Set a fixed width for the paragraphs */
+  text-align: left; /* Reset text alignment to left for paragraphs */
+  margin: 0 auto; /* Center the fixed-width paragraphs horizontally */
+  font-size: 20px; /* Apply a fixed font size to paragraphs */
+  line-height: 1.5em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.Introduction {
+  display: flex;
+  flex-direction: column;
+
+  /* rest of your styles */
+}
+
+.outerHeading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: flex;
+  margin: 2rem 2rem;
+  //max-width: 800px; /* Set a maximum width for the card */
+  text-align: center;
+  flex-direction: row; /* Stack the content vertically */
+}
+
+.card__content {
+  width: 100%; /* Full width for the content */
+}
+
+.card__image {
+  width: 400px; /* Full width for the image */
+  height: 18.75rem;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 5px 10px;
+}
+
+.card__info {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  justify-content: flex-start;
+  line-height: 1.5em;
+  font-size: 22px;
+  margin-top: 1rem;
+  text-align: justify;
+
+  //text-align: center; /* Center the text within the card info */
+}
+
+.card__title {
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.card__description {
+  max-width: 600px; /* Adjust the maximum width as needed */
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content horizontally */
+  text-align: center; /* Center the text within the about section */
+  margin: 3rem 0;
+}
+
+.about__divimg {
+  margin: 2rem 0;
+}
+
+.about__img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.projects__heading {
+  font-size: 35px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin: 3rem 0;
+}
+
+.mark {
+  background-color: rgba(105, 211, 145, 0.3);
+}
+
+.footer__socials {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 1rem 0;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+}
+
+@media only screen and (max-width: 767px) {
+  .Introduction {
+    margin: 2rem 0;
   }
-  to {
-    transform: rotate(360deg);
+
+  .card {
+    max-width: 100%; /* Allow cards to take full width on small screens */
+  }
+
+  .about {
+    margin: 2rem 0;
+  }
+
+  .about__img {
+    max-width: 100%;
+  }
+
+  .footer__socials {
+    margin: 0;
   }
 }
