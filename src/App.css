@@ -21,7 +21,7 @@ body {
 }
 
 .fixed-paragraph {
-  max-width: 600px; /* Set a fixed width for the paragraphs */
+  max-width: 500px; /* Set a fixed width for the paragraphs */
   text-align: left; /* Reset text alignment to left for paragraphs */
   margin: 0 auto; /* Center the fixed-width paragraphs horizontally */
   font-size: 20px; /* Apply a fixed font size to paragraphs */
