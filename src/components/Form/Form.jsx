@@ -1,4 +1,5 @@
-"use client";
+import emailjs from "emailjs-com";
+import { useControllableProp, useControllableState } from "@chakra-ui/react";
 
 import {
   Box,
@@ -70,6 +71,26 @@ const CONFETTI_DARK = `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2
 
 export default function ContactFormWithSocialButtons() {
   const { hasCopied, onCopy } = useClipboard("example@example.com");
+  const [email, setEmail] = useControllableState({ defaultValue: "" });
+  const [message, setMessage] = useControllableState({ defaultValue: "" });
+  const [name, setName] = useControllableState({ defaultValue: "" });
+  function sendEmail() {
+    emailjs.init("IS-eDv3CvLUb4S_Ya");
+    const emailParams = {
+      to_email: email,
+      from_name: name,
+      message: message,
+    };
+
+    emailjs
+      .send("service_vqb8le8", "template_8kma3y7", emailParams)
+      .then(function (response) {
+        console.log("Email sent successfully", response);
+      })
+      .catch(function (error) {
+        console.error("Email not sent", error);
+      });
+  }
 
   return (
     <div id="contacts">
@@ -201,6 +222,7 @@ export default function ContactFormWithSocialButtons() {
                           type="text"
                           name="name"
                           placeholder="Your Name"
+                          onChange={(e) => setName(e.target.value)}
                         />
                       </InputGroup>
                     </FormControl>
@@ -216,6 +238,7 @@ export default function ContactFormWithSocialButtons() {
                           type="email"
                           name="email"
                           placeholder="Your Email"
+                          onChange={(e) => setEmail(e.target.value)}
                         />
                       </InputGroup>
                     </FormControl>
@@ -228,10 +251,12 @@ export default function ContactFormWithSocialButtons() {
                         placeholder="Your Message"
                         rows={6}
                         resize="none"
+                        onChange={(e) => setMessage(e.target.value)}
                       />
                     </FormControl>
 
                     <Button
+                      onClick={sendEmail}
                       colorScheme="blue"
                       bg="blue.400"
                       color="white"

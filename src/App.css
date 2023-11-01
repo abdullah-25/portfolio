@@ -126,18 +126,27 @@ body {
 .footer__socials {
   display: flex;
   justify-content: space-between;
-  margin: 0;
+  flex-direction: row;
+  margin: 2rem;
   padding: 1rem 0;
 }
 
 .icon {
-  height: 50px;
-  width: 50px;
+  height: 70px;
+}
+@media (max-width: 768px) {
+  .footer__socials {
+    flex-direction: column; /* Center icons on smaller screens */
+  }
+
+  .icon {
+    margin: 1rem; /* Add some spacing between icons */
+  }
 }
 
 @media only screen and (max-width: 767px) {
   .Introduction {
-    margin: 2rem 0;
+    margin: 2rem 1rem;
   }
 
   .card {
@@ -150,9 +159,5 @@ body {
 
   .about__img {
     max-width: 100%;
-  }
-
-  .footer__socials {
-    margin: 0;
   }
 }

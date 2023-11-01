@@ -4,7 +4,6 @@ import {
   Box,
   Flex,
   Avatar,
-  Text,
   Button,
   Menu,
   MenuButton,
@@ -21,12 +20,9 @@ import {
 import { MoonIcon, SunIcon } from "@chakra-ui/icons";
 import logo from "../../Assets/Abdullah.jpg";
 
-interface Props {
-  children: React.ReactNode;
-}
 const Links = ["Projects", "About Me", "Contacts"];
 
-const NavLink = (props: Props) => {
+const NavLink = (props) => {
   const { children } = props;
 
   return (
@@ -37,7 +33,7 @@ const NavLink = (props: Props) => {
       rounded={"md"}
       _hover={{
         textDecoration: "none",
-        bg: useColorModeValue("gray.200", "gray.700"),
+        bg: useColorModeValue("gray.100", "gray.900"),
       }}
       href={`#${children.replace(/\s/g, "-").toLowerCase()}`} // Use the link text as an anchor ID
     >
@@ -51,7 +47,7 @@ export default function Nav() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <>
-      <Box bg={useColorModeValue("gray.100", "gray.900")} px={4}>
+      <Box bg={useColorModeValue("gray.200", "gray.700")} px={4}>
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
           <HStack as={"nav"} spacing={4} display={{ base: "none", md: "flex" }}>
             {Links.map((link) => (
