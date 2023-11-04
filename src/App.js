@@ -14,10 +14,13 @@ import VerticalTimelineProjects from "./components/VerticalTimeline/VerticalTime
 import VerticalTimeLineWork from "./components/VerticalTimeline/VerticalTimeLineWork";
 import VerticalTimelineEducation from "./components/VerticalTimeline/VerticalTimeLineEducation";
 import Socials from "./components/Socials/Socials";
+import { ColorModeScript } from "@chakra-ui/react";
+import theme from "./components/Theme/Theme";
 
 function App() {
   return (
-    <ChakraProvider>
+    <ChakraProvider theme={theme}>
+      <ColorModeScript initialColorMode={theme.config.initialColorMode} />
       <Navigation />
       <Introduction />
       <ProjectsHeading title="Projects" />
