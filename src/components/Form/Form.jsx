@@ -103,10 +103,11 @@ export default function ContactFormWithSocialButtons() {
                   justify="space-around"
                   direction={{ base: "row", md: "column" }}
                 >
-                  <Tooltip
-                    label={hasCopied ? "Email Copied!" : "Copy Email"}
-                    closeOnClick={false}
-                    hasArrow
+                  <Box
+                    as="a"
+                    href=" https://drive.google.com/file/d/1sPA5Tp8mfP34hiEjK7PrNXMoLwAlUZ5Y/view"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <IconButton
                       aria-label="email"
@@ -120,7 +121,7 @@ export default function ContactFormWithSocialButtons() {
                       }}
                       isRound
                     />
-                  </Tooltip>
+                  </Box>
 
                   <Box
                     as="a"

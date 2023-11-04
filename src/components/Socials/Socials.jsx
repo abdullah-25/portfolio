@@ -11,7 +11,10 @@ export default function Socials() {
   const CalendlyIcon = () =>
     window.open("https://calendly.com/abdullahimv25", "_blank");
   const ResumeIcon = () =>
-    window.open("https://github.com/abdullah-25", "_blank");
+    window.open(
+      "https://drive.google.com/file/d/1sPA5Tp8mfP34hiEjK7PrNXMoLwAlUZ5Y/view",
+      "_blank"
+    );
   return (
     <HStack>
       <div className="social-top">
