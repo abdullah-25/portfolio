@@ -1,5 +1,3 @@
-"use client";
-
 import {
   Box,
   Flex,
@@ -8,19 +6,15 @@ import {
   Menu,
   MenuButton,
   MenuList,
-  MenuItem,
   MenuDivider,
-  useDisclosure,
   useColorModeValue,
   Stack,
-  useColorMode,
   Center,
   HStack,
 } from "@chakra-ui/react";
-import { MoonIcon, SunIcon } from "@chakra-ui/icons";
 import logo from "../../Assets/Abdullah.jpg";
 
-const Links = ["Projects", "About Me", "Contacts"];
+const Links = ["Projects", "Tech Stack", "Connect With Me"];
 
 const NavLink = (props) => {
   const { children } = props;
@@ -43,8 +37,6 @@ const NavLink = (props) => {
 };
 
 export default function Nav() {
-  const { colorMode, toggleColorMode } = useColorMode();
-  const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <>
       <Box bg={useColorModeValue("gray.200", "gray.700")} px={4}>
@@ -57,10 +49,6 @@ export default function Nav() {
 
           <Flex alignItems={"center"}>
             <Stack direction={"row"} spacing={7}>
-              <Button onClick={toggleColorMode}>
-                {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
-              </Button>
-
               <Menu>
                 <MenuButton
                   as={Button}

@@ -18,13 +18,22 @@ export default function VerticalTimelineProjects() {
     <VerticalTimeline>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-        iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-        date="2019"
+        contentStyle={{ background: "#8ECAE6", color: "#023047" }}
+        contentArrowStyle={{ borderRight: "7px solid  #8ECAE6" }}
+        iconStyle={{ background: "#8ECAE6", color: "#8ECAE6" }}
+        date={<span style={{ color: "#fff" }}>2019</span>}
         icon={<WorkIcon />}
       >
-        <h2>Started Programming in Python</h2>
+        <h2
+          style={{
+            color: "#023047",
+            fontSize: "1.5rem",
+            textAlign: "center",
+            textDecoration: "underline",
+          }}
+        >
+          Started Programming in Python
+        </h2>
 
         <p>
           My programming journey began with a university course called
@@ -37,13 +46,22 @@ export default function VerticalTimelineProjects() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-        date="2020"
-        iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+        contentStyle={{ background: "#8ECAE6", color: "#023047" }}
+        contentArrowStyle={{ borderRight: "7px solid  #8ECAE6" }}
+        iconStyle={{ background: "#8ECAE6", color: "#8ECAE6" }}
+        date={<span style={{ color: "#fff" }}>2019</span>}
         icon={<WorkIcon />}
       >
-        <h2>First Hackathon!</h2>
+        <h2
+          style={{
+            color: "#023047",
+            fontSize: "1.5rem",
+            textAlign: "center",
+            textDecoration: "underline",
+          }}
+        >
+          First Hackathon!
+        </h2>
 
         <p>
           My debut hackathon at 'Hack the North' was a memorable experience
@@ -57,13 +75,22 @@ export default function VerticalTimelineProjects() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-        date="2021"
-        iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+        contentStyle={{ background: "#8ECAE6", color: "#023047" }}
+        contentArrowStyle={{ borderRight: "7px solid  #8ECAE6" }}
+        iconStyle={{ background: "#8ECAE6", color: "#8ECAE6" }}
+        date={<span style={{ color: "#fff" }}>2019</span>}
         icon={<WorkIcon />}
       >
-        <h2>First Exposure into the world of Machine Learning</h2>
+        <h2
+          style={{
+            color: "#023047",
+            fontSize: "1.5rem",
+            textAlign: "center",
+            textDecoration: "underline",
+          }}
+        >
+          First Exposure into the world of Machine Learning
+        </h2>
 
         <p>
           In my 'Introduction to Artificial Intelligence' course, I did a team
@@ -81,13 +108,22 @@ export default function VerticalTimelineProjects() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-        date="2022"
-        iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+        contentStyle={{ background: "#8ECAE6", color: "#023047" }}
+        contentArrowStyle={{ borderRight: "7px solid  #8ECAE6" }}
+        iconStyle={{ background: "#8ECAE6", color: "#8ECAE6" }}
+        date={<span style={{ color: "#fff" }}>2019</span>}
         icon={<WorkIcon />}
       >
-        <h2>Used Python to solve structural engineering problems</h2>
+        <h2
+          style={{
+            color: "#023047",
+            fontSize: "1.5rem",
+            textAlign: "center",
+            textDecoration: "underline",
+          }}
+        >
+          Used Python to solve structural engineering problems
+        </h2>
 
         <p>
           In my third year design course, I tackled the design of a reinforced
@@ -104,13 +140,22 @@ export default function VerticalTimelineProjects() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-        date="2023"
-        iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+        contentStyle={{ background: "#8ECAE6", color: "#023047" }}
+        contentArrowStyle={{ borderRight: "7px solid  #8ECAE6" }}
+        iconStyle={{ background: "#8ECAE6", color: "#8ECAE6" }}
+        date={<span style={{ color: "#fff" }}>2019</span>}
         icon={<WorkIcon />}
       >
-        <h2>First React App</h2>
+        <h2
+          style={{
+            color: "#023047",
+            fontSize: "1.5rem",
+            textAlign: "center",
+            textDecoration: "underline",
+          }}
+        >
+          First React App
+        </h2>
 
         <p>
           In an exhilarating journey into web development, I embarked on the
@@ -138,13 +183,22 @@ export default function VerticalTimelineProjects() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-        date="2023"
-        iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+        contentStyle={{ background: "#8ECAE6", color: "#023047" }}
+        contentArrowStyle={{ borderRight: "7px solid  #8ECAE6" }}
+        iconStyle={{ background: "#8ECAE6", color: "#8ECAE6" }}
+        date={<span style={{ color: "#fff" }}>2019</span>}
         icon={<WorkIcon />}
       >
-        <h2>Google's hackathon</h2>
+        <h2
+          style={{
+            color: "#023047",
+            fontSize: "1.5rem",
+            textAlign: "center",
+            textDecoration: "underline",
+          }}
+        >
+          Google's hackathon
+        </h2>
 
         <p>
           Participated in Google's 24-hour hackathon, my 3rd hackathon, where I
@@ -157,13 +211,22 @@ export default function VerticalTimelineProjects() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-        date="2023"
-        iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+        contentStyle={{ background: "#8ECAE6", color: "#023047" }}
+        contentArrowStyle={{ borderRight: "7px solid  #8ECAE6" }}
+        iconStyle={{ background: "#8ECAE6", color: "#8ECAE6" }}
+        date={<span style={{ color: "#fff" }}>2019</span>}
         icon={<WorkIcon />}
       >
-        <h2>First Saas Product</h2>
+        <h2
+          style={{
+            color: "#023047",
+            fontSize: "1.5rem",
+            textAlign: "center",
+            textDecoration: "underline",
+          }}
+        >
+          First Saas Product
+        </h2>
 
         <p>
           As I continue to expand my skillset in web development, I decided to
@@ -177,7 +240,15 @@ export default function VerticalTimelineProjects() {
           and monitor their fitness journey effectively. Built using React,
           NodeJS, Firebase and MySQL.
         </p>
-        <img style={{ marginTop: "1.5rem" }} src={FitBuddyImg} />
+        <img
+          style={{
+            marginTop: "1.5rem",
+            marginLeft: "auto",
+            marginRight: "auto",
+            width: "100%",
+          }}
+          src={FitBuddyImg}
+        />
       </VerticalTimelineElement>
     </VerticalTimeline>
   );

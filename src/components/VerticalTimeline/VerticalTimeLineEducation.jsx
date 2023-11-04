@@ -13,13 +13,22 @@ export default function VerticalTimelineEducation() {
     <VerticalTimeline>
       <VerticalTimelineElement
         className="vertical-timeline-element--education"
-        date="May 2022 - Sep 2022"
-        contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-        iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+        date={<span style={{ color: "#fff" }}>Sep 2018 - May 2023</span>}
+        contentStyle={{ background: "#8ecae6", color: "black" }}
+        contentArrowStyle={{ borderRight: "7px solid  #8ecae6" }}
+        iconStyle={{ background: "#8ecae6", color: "#fff" }}
         icon={<WorkIcon />}
       >
-        <h2>University of Toronto</h2>
+        <h2
+          style={{
+            color: "black",
+            fontSize: "1.5rem",
+            textAlign: "center",
+            textDecoration: "underline",
+          }}
+        >
+          University of Toronto
+        </h2>
 
         <p>
           Completed Bachelors in Civil Enginner with minor in Engineering
@@ -32,13 +41,22 @@ export default function VerticalTimelineEducation() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--education"
-        date="Sep 2022 - May 2023"
-        contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-        iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+        date={<span style={{ color: "#fff" }}>May 2023 - Sep 2023</span>}
+        contentStyle={{ background: "#8ecae6", color: "black" }}
+        contentArrowStyle={{ borderRight: "7px solid  #8ecae6" }}
+        iconStyle={{ background: "#8ecae6", color: "#fff" }}
         icon={<WorkIcon />}
       >
-        <h2>BrainStation</h2>
+        <h2
+          style={{
+            color: "black",
+            fontSize: "1.5rem",
+            textAlign: "center",
+            textDecoration: "underline",
+          }}
+        >
+          BrainStation
+        </h2>
 
         <p>
           Attended a 12 week Bootcamp at Lighthouse Labs to enhance my

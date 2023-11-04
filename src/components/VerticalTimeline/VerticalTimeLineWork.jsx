@@ -15,12 +15,21 @@ export default function VerticalTimelineWork() {
       <VerticalTimelineElement
         className="vertical-timeline-element--education"
         date="May 2022 - Sep 2022"
-        contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-        iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+        contentStyle={{ background: "#023e8a", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #023e8a" }}
+        iconStyle={{ background: "#023e8a", color: "#fff" }}
         icon={<WorkIcon />}
       >
-        <h2>Software Developer Intern</h2>
+        <h2
+          style={{
+            color: "#fff",
+            fontSize: "1.5rem",
+            textAlign: "center",
+            textDecoration: "underline",
+          }}
+        >
+          Software Developer Intern
+        </h2>
 
         <p>
           Redesigned ETL jobs in the latest SQL Server Integration Services,
@@ -29,17 +38,32 @@ export default function VerticalTimelineWork() {
           within an agile team, resulting in streamlined processes and
           recognition for exceptional teamwork and project success.
         </p>
-        <img style={{ marginTop: "1.5rem" }} src={yorkRegion} />
+        <img
+          style={{
+            marginTop: "1.5rem",
+            marginLeft: "auto",
+            marginRight: "auto",
+            width: "100%",
+          }}
+          src={yorkRegion}
+        />
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--education"
         date="Sep 2022 - May 2023"
-        contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-        iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+        contentStyle={{ background: "#023e8a", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #023e8a" }}
+        iconStyle={{ background: "#023e8a", color: "#fff" }}
         icon={<WorkIcon />}
       >
-        <h2>
+        <h2
+          style={{
+            color: "#fff",
+            fontSize: "1.5rem",
+            textAlign: "center",
+            textDecoration: "underline",
+          }}
+        >
           Machine Learning Engineer at Infrasture Health and Safety (University
           contract work)
         </h2>
@@ -52,23 +76,48 @@ export default function VerticalTimelineWork() {
           100,000 entries each to ensure adaptability across diverse scenarios
           and data distributions.
         </p>
-        <img style={{ marginTop: "1.5rem" }} src={ihsa} />
+        <img
+          style={{
+            marginTop: "1.5rem",
+            marginLeft: "auto",
+            marginRight: "auto",
+            width: "100%",
+          }}
+          src={ihsa}
+        />
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--education"
         date="Sep 2023 - Present"
-        contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-        iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+        contentStyle={{ background: "#023e8a", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #023e8a" }}
+        iconStyle={{ background: "#023e8a", color: "#fff" }}
         icon={<WorkIcon />}
       >
-        <h2>Software Engineer at MultiplAI (Stealth Startup)</h2>
+        <h2
+          style={{
+            color: "#fff",
+            fontSize: "1.5rem",
+            textAlign: "center",
+            textDecoration: "underline",
+          }}
+        >
+          Software Engineer at MultiplAI (Stealth Startup)
+        </h2>
 
         <p>
           Currently working on the AI/ML team building automated job platform
           leveraging AWS, Lambda and DynamoDB.
         </p>
-        <img style={{ marginTop: "1.5rem" }} src={multiplai} />
+        <img
+          style={{
+            marginTop: "1.5rem",
+            marginLeft: "auto",
+            marginRight: "auto",
+            width: "100%",
+          }}
+          src={multiplai}
+        />
       </VerticalTimelineElement>
     </VerticalTimeline>
   );
