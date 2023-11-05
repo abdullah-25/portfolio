@@ -23,13 +23,12 @@ function App() {
       <ColorModeScript initialColorMode={theme.config.initialColorMode} />
       <Navigation />
       <Introduction />
-      <ProjectsHeading title="Projects" />
       <VerticalTimelineProjects />
-      <ProjectsHeading title="Work Experience" />
+
       <VerticalTimeLineWork />
-      <ProjectsHeading title="Education" />
+
       <VerticalTimelineEducation />
-      <ProjectsHeading title="Tech Stack" />
+
       <About />
       <Form />
     </ChakraProvider>
@@ -50,8 +49,8 @@ function Introduction() {
           love bringing innovative ideas come to life through code.
         </p>
         <br />
-        <p>Let's learn about my personal journey to coding!</p>
         <br />
+        <ProjectsHeading title="Connect with me" />
         <Socials />
       </div>
     </div>
@@ -60,18 +59,23 @@ function Introduction() {
 
 function About() {
   return (
-    <div id="tech-stack" className="footer-container">
-      <div className="footer__socials">
-        <img className="icon" src={react} alt="React" />
-        <img className="icon" src={typescript} alt="TypeScript" />
-        <img className="icon" src={python} alt="Python" />
-        <img className="icon" src={nodejs} alt="Node.js" />
-        <img className="icon" src={mysql} alt="MySQL" />
-        <img className="icon" src={postgres} alt="PostgreSQL" />
-        <img className="icon" src={graphql} alt="GraphQL" />
-        <img className="icon" src={prisma} alt="Prisma" />
+    <>
+      <div className="container">
+        <div className="container-rest">Tech Stack</div>
       </div>
-    </div>
+      <div id="tech-stack" className="footer-container">
+        <div className="footer__socials">
+          <img className="icon" src={react} alt="React" />
+          <img className="icon" src={typescript} alt="TypeScript" />
+          <img className="icon" src={python} alt="Python" />
+          <img className="icon" src={nodejs} alt="Node.js" />
+          <img className="icon" src={mysql} alt="MySQL" />
+          <img className="icon" src={postgres} alt="PostgreSQL" />
+          <img className="icon" src={graphql} alt="GraphQL" />
+          <img className="icon" src={prisma} alt="Prisma" />
+        </div>
+      </div>
+    </>
   );
 }
 

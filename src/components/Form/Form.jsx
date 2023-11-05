@@ -91,7 +91,7 @@ export default function ContactFormWithSocialButtons() {
                   md: "5xl",
                 }}
               >
-                Get in Touch
+                Connect with me
               </Heading>
 
               <Stack
