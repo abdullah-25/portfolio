@@ -87,7 +87,7 @@ export default function VerticalTimelineProjects() {
           contentStyle={{ background: "#8ECAE6", color: "#023047" }}
           contentArrowStyle={{ borderRight: "7px solid  #8ECAE6" }}
           iconStyle={{ background: "#8ECAE6", color: "#8ECAE6" }}
-          date={<span style={{ color: "#fff" }}>2019</span>}
+          date={<span style={{ color: "#fff" }}>2020</span>}
           icon={<WorkIcon />}
         >
           <h2
@@ -120,7 +120,7 @@ export default function VerticalTimelineProjects() {
           contentStyle={{ background: "#8ECAE6", color: "#023047" }}
           contentArrowStyle={{ borderRight: "7px solid  #8ECAE6" }}
           iconStyle={{ background: "#8ECAE6", color: "#8ECAE6" }}
-          date={<span style={{ color: "#fff" }}>2019</span>}
+          date={<span style={{ color: "#fff" }}>2022</span>}
           icon={<WorkIcon />}
         >
           <h2
@@ -152,7 +152,7 @@ export default function VerticalTimelineProjects() {
           contentStyle={{ background: "#8ECAE6", color: "#023047" }}
           contentArrowStyle={{ borderRight: "7px solid  #8ECAE6" }}
           iconStyle={{ background: "#8ECAE6", color: "#8ECAE6" }}
-          date={<span style={{ color: "#fff" }}>2019</span>}
+          date={<span style={{ color: "#fff" }}>2023</span>}
           icon={<WorkIcon />}
         >
           <h2
@@ -195,7 +195,7 @@ export default function VerticalTimelineProjects() {
           contentStyle={{ background: "#8ECAE6", color: "#023047" }}
           contentArrowStyle={{ borderRight: "7px solid  #8ECAE6" }}
           iconStyle={{ background: "#8ECAE6", color: "#8ECAE6" }}
-          date={<span style={{ color: "#fff" }}>2019</span>}
+          date={<span style={{ color: "#fff" }}>2023</span>}
           icon={<WorkIcon />}
         >
           <h2
@@ -223,7 +223,7 @@ export default function VerticalTimelineProjects() {
           contentStyle={{ background: "#8ECAE6", color: "#023047" }}
           contentArrowStyle={{ borderRight: "7px solid  #8ECAE6" }}
           iconStyle={{ background: "#8ECAE6", color: "#8ECAE6" }}
-          date={<span style={{ color: "#fff" }}>2019</span>}
+          date={<span style={{ color: "#fff" }}>2023</span>}
           icon={<WorkIcon />}
         >
           <h2
