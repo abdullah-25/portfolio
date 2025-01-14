@@ -12,7 +12,7 @@ export default function Socials() {
     window.open("https://calendly.com/abdullahimv25", "_blank");
   const ResumeIcon = () =>
     window.open(
-      "https://drive.google.com/file/d/1sPA5Tp8mfP34hiEjK7PrNXMoLwAlUZ5Y/view",
+      "https://drive.google.com/file/d/1hlMmzGCYjkZtaCkEUBoIdF-imJfW9LFC/view?usp=drive_link",
       "_blank"
     );
   return (
